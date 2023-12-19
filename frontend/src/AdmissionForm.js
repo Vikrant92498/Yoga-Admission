@@ -28,7 +28,7 @@ const AdmissionForm = () => {
      // eslint-disable-next-line
     useEffect(() => {
         getStartAndEndDates();
-    }, [])
+    },)
     const handleSubmit = async (e) => {
         e.preventDefault();
         if(batch==="" || name==="" || phone===""){
@@ -36,7 +36,7 @@ const AdmissionForm = () => {
             return;
         }
         //Validation of Age will done on server side as specified in requirements
-        const response = await fetch('http://localhost:5000/submit', {
+        const response = await fetch('https://yoga-admission-xoha.onrender.com/submit', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
