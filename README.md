@@ -26,4 +26,7 @@ After the validation , it make a POST request to the server sending name,age,pho
 
 Backend 
 Used CORS 
+![image](https://github.com/Vikrant92498/Yoga-Admission/assets/107363759/5371e2cc-12b0-422a-ae8a-082af673ee8f)
+
+![image](https://github.com/Vikrant92498/Yoga-Admission/assets/107363759/f8a42b7c-3ac1-41a3-ace8-e6f66403bbdd)
 
